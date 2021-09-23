@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Yahoo App Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/niloymazumder/Documents/IdeaProjects/Java/TestNG/src/test/java/com/parameter">
+        <classes>
+            <class name="com.parameter.ParameterTestNG">
+                <methods>
+                    <include name="yahooLoginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
